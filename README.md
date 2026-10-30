@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-raute-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://raute.io/
+Raute provides AI‑powered route planning and delivery management software for fleets of any size. Its platform uses artificial intelligence to read orders, optimise driver routes, and offer live tracking, supporting a free 7‑day trial without requiring a credit card. Founded in 2025, Raute serves US delivery operations across sectors such as medical equipment, food, and courier services, integrating with popular e‑commerce and logistics tools.
+
+**Areas:** Company · Logistics · Delivery · Route Planning · AI · Fleet Management
+
+## raute-io on APIs.io
+
+Everything profiled for raute-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/raute-io/](https://apis.io/providers/raute-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [raute-io Drivers API](https://apis.io/apis/raute-io/raute-io-drivers-api/) — Read drivers and link them to ids in your own system.
+- [raute-io Orders API](https://apis.io/apis/raute-io/raute-io-orders-api/) — Create, read, update and cancel delivery orders.
+- [raute-io Tracking API](https://apis.io/apis/raute-io/raute-io-tracking-api/) — Where an order is, its ETA and its driver.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Raute Io Agentic Access](https://apis.io/agentic-access/raute-io/raute-io-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [Driver](https://apis.io/schemas/raute-io/raute-io-driver/)
+- [NewOrder](https://apis.io/schemas/raute-io/raute-io-new-order/)
+- [Order](https://apis.io/schemas/raute-io/raute-io-order/)
+- [OrderPatch](https://apis.io/schemas/raute-io/raute-io-order-patch/)
+- [Tracking](https://apis.io/schemas/raute-io/raute-io-tracking/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Raute Io Context](https://apis.io/jsonld/raute-io/raute-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [raute-io API Rules](https://apis.io/rules/raute-io/raute-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Raute Io Authentication](https://apis.io/security/raute-io/raute-io-authentication/)
+- [Raute Io Domain Security](https://apis.io/security/raute-io/raute-io-domain-security/)
+- [Raute Io Vulnerability Disclosure](https://apis.io/security/raute-io/raute-io-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Raute Io Scopes](https://apis.io/scopes/raute-io/raute-io-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Raute Io Plans Pricing](https://apis.io/plans/raute-io/raute-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Raute Io Rate Limits](https://apis.io/rate-limits/raute-io/raute-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://raute.io/)
+- [Documentation](https://www.raute.io/docs)
+- [Getting started](https://www.raute.io/getting-started)
+- [API reference](https://www.raute.io/llms.txt)
+- [Pricing](https://www.raute.io/pricing)
+- [Sign up](https://www.raute.io/signup)
+- [Support](https://www.raute.io/support)
+- [Blog](https://www.raute.io/blog)
+- [Security](https://www.raute.io/security/)
+- [Terms of service](https://www.raute.io/terms)
+- [Privacy policy](https://www.raute.io/privacy)
+- [GitHub](https://github.com/raute-io)
+
+## API Evangelist rating
+
+**Kin Score 66.1** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 37.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/raute-io/](https://apis.io/providers/raute-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for raute-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/raute-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
